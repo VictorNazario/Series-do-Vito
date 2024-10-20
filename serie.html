@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Detalhes da Série</title>
+    <link rel="stylesheet" href="/css/styles.css" />
+  </head>
+  <body class="detalhes">
+    <div class="container">
+      <header>
+        <button id="random-series" class="nav-button">Aleatória</button>
+        <div class="search-bar">
+          <input type="text" id="search" placeholder="Buscar série..." />
+          <button id="search-button">Buscar</button>
+        </div>
+      </header>
+
+      <main class="detalhes-serie">
+        <img id="serie-imagem" src="" alt="Capa da série" />
+        <h2>Sinopse</h2>
+        <p id="serie-sinopse"></p>
+        <p id="serie-ano"></p>
+        <h2 id="serie-avaliacao" class="detalhes-avaliacao"></h2>
+      </main>
+
+      <footer>
+        <a id="link-voltar" class="linkVoltar" href="#">Voltar à Página Principal</a>
+        <a id="link-sobre" class="linkSobre" href="#">🤓☝ O meu método de avaliação</a>
+      </footer>
+    </div>
+
+    <script>
+      let seriesData = [];
+
+      // Obtém o ID da série da URL
+      const urlParams = new URLSearchParams(window.location.search);
+      const serieId = urlParams.get('id');
+
+      // Carrega as informações da série do arquivo JSON
+      function loadSeries() {
+        fetch('/series.json')
+          .then(response => response.json())
+          .then(data => {
+            seriesData = data;
+            // Encontra a série com o ID correspondente
+            const serie = data.find(s => s.id == serieId);
+
+            if (serie) {
+              // Preenche os elementos HTML com os dados da série
+              document.title = serie.titulo; // Ajusta o título da página
+              document.getElementById('serie-imagem').src = serie.imagem;
+              document.getElementById('serie-imagem').alt = `Capa da série ${serie.titulo}`;
+              document.getElementById('serie-sinopse').textContent = serie.sinopse;
+              document.getElementById('serie-ano').textContent = serie.ano;
+              document.getElementById('serie-avaliacao').textContent = `Avaliação: ${serie.avaliacao}`;
+              document.getElementById('link-voltar').href = '/index.html'; // Link para voltar à página principal
+              document.getElementById('link-sobre').href = '/sobre.html'; // Link para a página de avaliação
+            } else {
+              // Exibe mensagem de erro se a série não for encontrada
+              document.body.innerHTML = '<p>Série não encontrada.</p>';
+            }
+          })
+          .catch(error => console.error('Erro ao carregar detalhes da série:', error));
+      }
+
+      // Função para pesquisar séries
+      function searchSeries() {
+        const searchTerm = document
+          .getElementById("search")
+          .value.toLowerCase();
+        const filteredSeries = seriesData.filter((serie) =>
+          serie.titulo.toLowerCase().includes(searchTerm)
+        );
+        displaySeries(filteredSeries); // Função opcional para exibir resultados de busca
+      }
+
+      // Função para redirecionar para a página index com o termo de busca
+      function searchSeries() {
+        const searchTerm = document.getElementById("search").value.trim();
+        if (searchTerm) {
+          // Redireciona para a página principal (index.html) com o termo de busca na URL
+          window.location.href = `index.html?search=${encodeURIComponent(searchTerm)}`;
+        }
+      }
+
+      // Função para selecionar uma série aleatória
+      function randomSeries() {
+        if (seriesData.length === 0) return; // Verifica se há séries carregadas
+        const randomIndex = Math.floor(Math.random() * seriesData.length);
+        const randomSerie = seriesData[randomIndex];
+        window.location.href = `serie.html?id=${randomSerie.id}`;
+      }
+
+      // Event listeners
+      document
+        .getElementById("random-series")
+        .addEventListener("click", randomSeries);
+      document
+        .getElementById("search-button")
+        .addEventListener("click", searchSeries);
+
+      // Carrega as séries ao carregar a página
+      window.addEventListener("load", loadSeries);
+
+      // Event listener para pressionar "Enter" no campo de busca
+      document.getElementById("search").addEventListener("keydown", function(event) {
+        if (event.key === "Enter") {
+          searchSeries(); // Aciona a função de busca ao teclar Enter
+        }
+      });
+
+    </script>
+  </body>
+</html>

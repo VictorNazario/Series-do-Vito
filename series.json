@@ -1,0 +1,1222 @@
+[
+  {
+    "id": 1,
+    "titulo": "The Sopranos",
+    "imagem": "/img/the_sopranos.jpg",
+    "sinopse": "O chefe da máfia de Nova Jersey, Tony Soprano, lida com problemas pessoais e profissionais em sua vida doméstica e empresarial que afetam seu estado mental, levando-o a buscar aconselhamento psiquiátrico profissional.",
+    "ano": "(1999–2007)",
+    "avaliacao": "🥇",
+    "linkVoltar": "/index.html",
+    "linkSobre": "/about.html"
+  },
+  {
+    "id": 2,
+    "titulo": "Breaking Bad",
+    "imagem": "/img/breaking_bad.jpg",
+    "sinopse": "Um professor de química diagnosticado com câncer de pulmão inoperável passa a fabricar e vender metanfetamina com um ex-aluno para garantir o futuro de sua família.",
+    "ano": "(2008-2013)",
+    "avaliacao": "🥇",
+    "linkVoltar": "/index.html",
+    "linkSobre": "/about.html"
+  },
+  {
+    "id": 3,
+    "titulo": "Atlanta",
+    "imagem": "/img/atlanta.jpg",
+    "sinopse": "Earn e seu primo, Alfred, tentam abrir caminho no mundo através da cena do rap de Atlanta. Ao longo do caminho, eles enfrentam questões sociais e econômicas relacionadas a raça, relacionamentos, pobreza, status e paternidade.",
+    "ano": "(2016–2022)",
+    "avaliacao": "🥈",
+    "linkVoltar": "/index.html",
+    "linkSobre": "/about.html"
+  },
+  {
+    "id": 4,
+    "titulo": "The Shield",
+    "imagem": "/img/the_shield.jpg",
+    "sinopse": "A série acompanha um grupo de policiais corruptos do Departamento de Polícia de Los Angeles (LAPD), conhecido como 'The Strike Team', que usa métodos ilegais para manter a lei e a ordem, enquanto se envolve em uma série de negociações secretas para ficar rico.",
+    "ano": "(2002-2008)",
+    "avaliacao": "🥈",
+    "linkVoltar": "/index.html",
+    "linkSobre": "/about.html"
+  }, 
+  {
+    "id": 5,
+    "titulo": "Bad Blood",
+    "imagem": "/img/bad_blood.jpg",
+    "sinopse": "Uma dramatização da vida e morte do chefe da máfia de Montreal, Vito Rizzuto.",
+    "ano": "(2017-2018)",
+    "avaliacao": "🥉",
+    "linkVoltar": "/index.html",
+    "linkSobre": "/about.html"
+  },
+  {
+    "id": 6,
+    "titulo": "Boardwalk Empire",
+    "imagem": "/img/boardwalk_empire.jpg",
+    "sinopse": "Um político de Atlantic City joga dos dois lados da lei, conspirando com gângsteres durante a época da Proibição.",
+    "ano": "(2010–2014)",
+    "avaliacao": "🥇",
+    "linkVoltar": "/index.html",
+    "linkSobre": "/about.html"
+  },
+  {
+    "id": 7,
+    "titulo": "Top Boys",
+    "imagem": "/img/top_boys.jpg",
+    "sinopse": "Dois traficantes de drogas de Londres exercem seu lucrativo comércio em um conjunto habitacional público no leste de Londres.",
+    "ano": "(22011–2023)",
+    "avaliacao": "🥇",
+    "linkVoltar": "/index.html",
+    "linkSobre": "/about.html"
+  },
+  {
+    "id": 8,
+    "titulo": "Dark Matter",
+    "imagem": "/img/dark_matter.jpg",
+    "sinopse": "Um homem é sequestrado para uma versão alternativa de sua vida. Em meio à paisagem alucinante de vidas que ele poderia ter vivido, ele embarca em uma jornada angustiante para voltar à sua verdadeira família e salvá-los de um inimigo mais terrível: ele mesmo.",
+    "ano": "(2024)",
+    "avaliacao": "🥈",
+    "linkVoltar": "/index.html",
+    "linkSobre": "/about.html"
+  },
+  {
+    "id": 9,
+    "titulo": "Fallout",
+    "imagem": "/img/fallout.jpg",
+    "sinopse": "Em um futuro pós-apocalíptico, Los Angeles, devastada pela guerra nuclear, força os cidadãos a viverem em bunkers subterrâneos para se protegerem da radiação, mutantes e bandidos.",
+    "ano": "(2024)",
+    "avaliacao": "🥈",
+    "linkVoltar": "/index.html",
+    "linkSobre": "/about.html"
+  },
+  {
+    "id": 10,
+    "titulo": "House of Cards",
+    "imagem": "/img/house_of_cards.jpg",
+    "sinopse": "Um congressista trabalha com sua igualmente ardilosa esposa para se vingar das pessoas que o traíram.",
+    "ano": "(2013–2018)",
+    "avaliacao": "🥈",
+    "linkVoltar": "/index.html",
+    "linkSobre": "/about.html"
+  },
+  {
+    "id": 11,
+    "titulo": "Lost",
+    "imagem": "/img/lost.jpg",
+    "sinopse": "Os sobreviventes de um acidente de avião são forçados a trabalhar juntos para sobreviver em uma ilha tropical aparentemente deserta.",
+    "ano": "(2004–2010)",
+    "avaliacao": "🥇",
+    "linkVoltar": "/index.html",
+    "linkSobre": "/about.html"
+  },
+  {
+    "id": 12,
+    "titulo": "Patriot",
+    "imagem": "/img/patriot.jpg",
+    "sinopse": "Acompanha a vida complicada do oficial de inteligência John Tavner, cuja última missão - impedir que o Irã adquira armas nucleares - exige que ele abandone todas as redes de segurança e assuma uma perigosa cobertura não oficial.",
+    "ano": "(2015–2018)",
+    "avaliacao": "🥈",
+    "linkVoltar": "/index.html",
+    "linkSobre": "/about.html"
+  },
+  {
+    "id": 13,
+    "titulo": "Presumed Innocent",
+    "imagem": "/img/presumed_innocent.jpg",
+    "sinopse": "Um horrível assassinato abala o escritório do promotor público de Chicago quando um de seus próprios funcionários é suspeito do crime.",
+    "ano": "(2024)",
+    "avaliacao": "🥈",
+    "linkVoltar": "/index.html",
+    "linkSobre": "/about.html"
+  },
+  {
+    "id": 14,
+    "titulo": "Ripley",
+    "imagem": "/img/ripley.jpg",
+    "sinopse": "Um trambiqueiro adentra no mundo da riqueza e do privilégio ao aceitar um trabalho na Itália. Mas, para aproveitar a vida boa, ele precisa criar uma teia de mentiras.",
+    "ano": "(2015–2018)",
+    "avaliacao": "🥇",
+    "linkVoltar": "/index.html",
+    "linkSobre": "/about.html"
+  },
+  {
+    "id": 15,
+    "titulo": "Six Feet Under",
+    "imagem": "/img/six_feet_under.jpg",
+    "sinopse": "Quando a morte é o seu negócio, o que é a sua vida? Cheia de ironia e humor negro situacional, a série aborda o tema da morte através dos olhos da família Fisher, proprietária e operadora de uma funerária em Los Angeles.",
+    "ano": "(2001–2005)",
+    "avaliacao": "🥇",
+    "linkVoltar": "/index.html",
+    "linkSobre": "/about.html"
+  },
+  {
+    "id": 16,
+    "titulo": "Stranger Things",
+    "imagem": "/img/stranger_things.jpg",
+    "sinopse": "Na Indiana dos anos 1980, um grupo de jovens amigos testemunham forças sobrenaturais e experimentos secretos do governo. Enquanto buscam respostas, as crianças desvendam uma série de mistérios extraordinários.",
+    "ano": "(2016–2025)",
+    "avaliacao": "🥉",
+    "linkVoltar": "/index.html",
+    "linkSobre": "/about.html"
+  },
+  {
+    "id": 17,
+    "titulo": "Sugar",
+    "imagem": "/img/sugar.jpg",
+    "sinopse": "O detetive particular John Sugar investiga o desaparecimento de Olivia, a amada neta do produtor de Hollywood Jonathan Siegel. Enquanto tenta descobrir o que aconteceu com Olivia, Sugar desenterra segredos antigos e novos da família Siegel.",
+    "ano": "(2024)",
+    "avaliacao": "🥉",
+    "linkVoltar": "/index.html",
+    "linkSobre": "/about.html"
+  },
+  {
+    "id": 18,
+    "titulo": "The 8 Show",
+    "imagem": "/img/the_8_show.jpg",
+    "sinopse": "Oito participantes em dificuldades financeiras participam do Money Game, um reality show com 44,8 bilhões em jogo. Para vencer, eles devem suportar 100 dias em um estúdio esparso, já que todas as compras têm uma margem de lucro de 1000x, subtraída do prêmio.",
+    "ano": "(2024)",
+    "avaliacao": "🥈",
+    "linkVoltar": "/index.html",
+    "linkSobre": "/about.html"
+  },
+  {
+    "id": 19,
+    "titulo": "The Gentlemen",
+    "imagem": "/img/the_gentlemen.jpg",
+    "sinopse": "Quando o aristocrata Eddie herda a propriedade familiar, ele descobre que ela abriga um enorme império da maconha e que seus proprietários não têm intenção de sair.",
+    "ano": "(2024)",
+    "avaliacao": "🥈",
+    "linkVoltar": "/index.html",
+    "linkSobre": "/about.html"
+  },
+  {
+    "id": 20,
+    "titulo": "The Righteous Gemstones",
+    "imagem": "/img/the_righteous_gemstones.jpg",
+    "sinopse": "Acompanha uma família de televangelistas mundialmente famosa com uma longa tradição de desvio, ganância e trabalho filantrópico.",
+    "ano": "(2019)",
+    "avaliacao": "🥉",
+    "linkVoltar": "/index.html",
+    "linkSobre": "/about.html"
+  },
+  {
+    "id": 21,
+    "titulo": "Unbelievable",
+    "imagem": "/img/unbelievable.jpg",
+    "sinopse": "Ela foi acusada de falsa denúncia de estupro. Anos depois, duas investigadoras descobrem a assustadora verdade.",
+    "ano": "(2019)",
+    "avaliacao": "🥉",
+    "linkVoltar": "/index.html",
+    "linkSobre": "/about.html"
+  },
+  {
+    "id": 22,
+    "titulo": "Baby Reindeer",
+    "imagem": "/img/baby_reindeer.jpg",
+    "sinopse": "Segue o distorcido relacionamento do roteirista e ator Richard Gadd com sua stalker e o impacto que isso causa quando ele é forçado a enfrentar um trauma profundo e muito sombrio.",
+    "ano": "(2024)",
+    "avaliacao": "🥈",
+    "linkVoltar": "/index.html",
+    "linkSobre": "/about.html"
+  },
+  {
+    "id": 23,
+    "titulo": "Poker Face",
+    "imagem": "/img/poker_face.jpg",
+    "sinopse": "Charlie tem uma habilidade extraordinária de determinar quando alguém está mentindo. Ela sai na estrada com seu Plymouth Barracuda e, a cada parada, encontra um novo elenco de personagens e crimes estranhos que ela não consegue deixar de investigar e resolver.",
+    "ano": "(2023)",
+    "avaliacao": "🥉",
+    "linkVoltar": "/index.html",
+    "linkSobre": "/about.html"
+  },
+  {
+    "id": 24,
+    "titulo": "We Own This City",
+    "imagem": "/img/we_own_this_city.jpg",
+    "sinopse": "Conta a história da ascensão e queda da Força-Tarefa de Rastreamento de Armas do Departamento de Polícia de Baltimore e a corrupção em torno dela.",
+    "ano": "(2022)",
+    "avaliacao": "🥈",
+    "linkVoltar": "/index.html",
+    "linkSobre": "/about.html"
+  },
+  {
+    "id": 25,
+    "titulo": "The Ones Who Live",
+    "imagem": "/img/the_ones_who_live.jpg",
+    "sinopse": "A história de amor entre Rick e Michonne. Mudados por um mundo que está em constante mudança, eles se encontrarão em uma guerra contra os vivos ou descobrirão que eles também são Os Mortos-Vivos?",
+    "ano": "(2024)",
+    "avaliacao": "🥉",
+    "linkVoltar": "/index.html",
+    "linkSobre": "/about.html"
+  },
+  {
+    "id": 26,
+    "titulo": "Band of Brothers",
+    "imagem": "/img/band_of_brothers.jpg",
+    "sinopse": "A história da Companhia Easy da 101ª Divisão Aerotransportada do Exército dos Estados Unidos e sua missão na Europa durante a Segunda Guerra Mundial, da Operação Overlord ao Dia da Vitória.",
+    "ano": "(2001)",
+    "avaliacao": "🥈",
+    "linkVoltar": "/index.html",
+    "linkSobre": "/about.html"
+  },
+  {
+    "id": 27,
+    "titulo": "Barry",
+    "imagem": "/img/barry.jpg",
+    "sinopse": "Um assassino do Meio-Oeste se muda para Los Angeles e é pego em uma cena de arte no teatro da cidade.",
+    "ano": "(2018-2023)",
+    "avaliacao": "🥉",
+    "linkVoltar": "/index.html",
+    "linkSobre": "/about.html"
+  },
+  {
+    "id": 28,
+    "titulo": "Bates Motel",
+    "imagem": "/img/bates_mote.jpg",
+    "sinopse": "Mostra a Norman Bates durante sua adolesceça e sua estreita relação com sua mãe.",
+    "ano": "(2013-2017)",
+    "avaliacao": "🥇",
+    "linkVoltar": "/index.html",
+    "linkSobre": "/about.html"
+  },
+  {
+    "id": 29,
+    "titulo": "Better Call Saul",
+    "imagem": "/img/better_call_saul.jpg",
+    "sinopse": "Os julgamentos e tribulações do advogado criminal Jimmy McGill nos anos anteriores e posteriores ao seu fatídico encontro com Walter White e Jesse Pinkman.",
+    "ano": "(2015-2022)",
+    "avaliacao": "🥇",
+    "linkVoltar": "/index.html",
+    "linkSobre": "/about.html"
+  },
+  {
+    "id": 30,
+    "titulo": "Big Little Lies",
+    "imagem": "/img/big_little_lies.jpg",
+    "sinopse": "As vidas aparentemente perfeitas de mães de classe alta em uma escola de prestígio se desintegram diante de um assassinato que ocorre pouco depois de uma mãe solteira se mudar à pitoresca cidadezinha da Califórnia.",
+    "ano": "(2017-2025)",
+    "avaliacao": "🥈",
+    "linkVoltar": "/index.html",
+    "linkSobre": "/about.html"
+  },
+  {
+    "id": 31,
+    "titulo": "Black Bird",
+    "imagem": "/img/black_bird.jpg",
+    "sinopse": "Quando Jimmy Keene começa a cumprir uma sentença de 10 anos de prisão, ele recebe uma oferta incrível: se ele conseguir obter uma confissão do suspeito de assassinato Larry Hall, Jimmy será libertado.",
+    "ano": "(2022)",
+    "avaliacao": "🥉",
+    "linkVoltar": "/index.html",
+    "linkSobre": "/about.html"
+  },
+  {
+    "id": 32,
+    "titulo": "Black Mirror",
+    "imagem": "/img/black_mirror.jpg",
+    "sinopse": "Apresentando dramas autônomos - contos afiados, tensos e satíricos que exploram a tecnoparanóia -, 'Black Mirror' é uma reformulação contemporânea de 'The Twilight Zone' com histórias que exploram a ansiedade coletiva sobre o mundo moderno.",
+    "ano": "(2011)",
+    "avaliacao": "🥉",
+    "linkVoltar": "/index.html",
+    "linkSobre": "/about.html"
+  },
+  {
+    "id": 33,
+    "titulo": "Bloodline",
+    "imagem": "/img/bloodline.jpg",
+    "sinopse": "Uma família é forçada a confrontar seus segredos e cicatrizes do passado quando o membro rebelde retorna para casa.",
+    "ano": "(2015-2017)",
+    "avaliacao": "🥈",
+    "linkVoltar": "/index.html",
+    "linkSobre": "/about.html"
+  },
+  {
+    "id": 34,
+    "titulo": "Bodyguard",
+    "imagem": "/img/bodyguard.jpg",
+    "sinopse": "O veterano de guerra David Budd encontra trabalho como sargento da polícia na divisão de Proteção à Realeza e Especialistas. Ele é designado para proteger a secretária do interior, a Rt. Hon. Julia Montague MP, uma política controversa e ambiciosa.",
+    "ano": "(2018)",
+    "avaliacao": "🥉",
+    "linkVoltar": "/index.html",
+    "linkSobre": "/about.html"
+  },
+  {
+    "id": 35,
+    "titulo": "Bosch",
+    "imagem": "/img/bosch.jpg",
+    "sinopse": "Um detetive de homicídios do Departamento de Polícia de Los Angeles trabalha para resolver o assassinato de um garoto enquanto está sendo julgado em um tribunal federal pelo assassinato de um serial killer.",
+    "ano": "(2014-2021)",
+    "avaliacao": "🥉",
+    "linkVoltar": "/index.html",
+    "linkSobre": "/about.html"
+  },
+  {
+    "id": 36,
+    "titulo": "Chernobyl",
+    "imagem": "/img/chernobyl.jpg",
+    "sinopse": "Em abril de 1986, a cidade de Chernobyl, na União Soviética, sofre um dos piores desastres nucleares da história da humanidade. Consequentemente, muitos heróis colocam suas vidas em risco nos dias, semanas e meses seguintes.",
+    "ano": "(2019)",
+    "avaliacao": "🥈",
+    "linkVoltar": "/index.html",
+    "linkSobre": "/about.html"
+  },
+  {
+    "id": 37,
+    "titulo": "Cobra Kai",
+    "imagem": "/img/cobra_kai.jpg",
+    "sinopse": "Décadas após a luta no Torneio de Karatê All Valley de 1984, Daniel LaRusso e Johnny Lawrence, agora de meia-idade, se encontram novamente como rivais nas artes marciais.",
+    "ano": "(2018–2023)",
+    "avaliacao": "🥉",
+    "linkVoltar": "/index.html",
+    "linkSobre": "/about.html"
+  },
+  {
+    "id": 38,
+    "titulo": "Dark",
+    "imagem": "/img/dark.jpg",
+    "sinopse": "Uma saga familiar com um toque sobrenatural, ambientada em uma cidade alemã onde o desaparecimento de duas crianças revela as complexas relações entre quatro famílias.",
+    "ano": "(2017–2020)",
+    "avaliacao": "🥇",
+    "linkVoltar": "/index.html",
+    "linkSobre": "/about.html"
+  },
+  {
+    "id": 39,
+    "titulo": "Dexter",
+    "imagem": "/img/dexter.jpg",
+    "sinopse": "Ele é inteligente. Ele é adorável. Ele é Dexter Morgan, o serial killer favorito da América, que passa seus dias resolvendo crimes e suas noites cometendo-os.",
+    "ano": "(2006–2013)",
+    "avaliacao": "🥈",
+    "linkVoltar": "/index.html",
+    "linkSobre": "/about.html"
+  },
+  {
+    "id": 40,
+    "titulo": "Drops of God",
+    "imagem": "/img/drops_of_god.jpg",
+    "sinopse": "Uma mulher descobre a maior coleção de vinhos do mundo, deixada por seu pai distante, e compete contra o protegido dele para reivindicar sua herança.",
+    "ano": "(2023)",
+    "avaliacao": "🥈",
+    "linkVoltar": "/index.html",
+    "linkSobre": "/about.html"
+  },
+  {
+    "id": 41,
+    "titulo": "Fargo",
+    "imagem": "/img/fargo.jpg",
+    "sinopse": "Várias crônicas de engano, intriga e assassinato em torno da gelada Minnesota. Todas essas histórias misteriosamente acabam levando de alguma forma a Fargo, na Dakota do Norte.",
+    "ano": "(2014-2024)",
+    "avaliacao": "🥈",
+    "linkVoltar": "/index.html",
+    "linkSobre": "/about.html"
+  },
+  {
+    "id": 42,
+    "titulo": "From",
+    "imagem": "/img/from.jpg",
+    "sinopse": "Desvende o mistério de uma cidade no centro dos EUA que aprisiona todos que entram. Enquanto os residentes lutam para manter um senso de normalidade e buscam uma maneira de escapar, eles também precisam sobreviver às ameaças da floresta ao redor.",
+    "ano": "(2022)",
+    "avaliacao": "🥈",
+    "linkVoltar": "/index.html",
+    "linkSobre": "/about.html"
+  },
+  {
+    "id": 43,
+    "titulo": "Game of Thrones",
+    "imagem": "/img/game_of_thrones.jpg",
+    "sinopse": "Nove famílias nobres lutam pelo controle das terras de Westeros, enquanto um inimigo antigo retorna após estar adormecido por milênios.",
+    "ano": "(2011–2019)",
+    "avaliacao": "🥇",
+    "linkVoltar": "/index.html",
+    "linkSobre": "/about.html"
+  },
+  {
+    "id": 44,
+    "titulo": "Goliath",
+    "imagem": "/img/goliath.jpg",
+    "sinopse": "Um advogado desonrado, agora um caçador de ambulâncias, recebe um caso que pode lhe trazer redenção ou, pelo menos, vingança contra o escritório que o expulsou.",
+    "ano": "(2016–2021)",
+    "avaliacao": "🥈",
+    "linkVoltar": "/index.html",
+    "linkSobre": "/about.html"
+  },
+  {
+    "id": 45,
+    "titulo": "Hannibal",
+    "imagem": "/img/hannibal.jpg",
+    "sinopse": "Explora o relacionamento inicial entre o renomado psiquiatra Hannibal Lecter e um jovem perfilador criminal do FBI, que é assombrado pela sua capacidade de empatizar com serial killers.",
+    "ano": "(2013–2015)",
+    "avaliacao": "🥈",
+    "linkVoltar": "/index.html",
+    "linkSobre": "/about.html"
+  },
+  {
+    "id": 46,
+    "titulo": "Hijack",
+    "imagem": "/img/hijack.jpg",
+    "sinopse": "Um avião de Dubai para Londres é sequestrado durante um voo de 7 horas, enquanto as autoridades em terra correm em busca de respostas.",
+    "ano": "(2023)",
+    "avaliacao": "🥉",
+    "linkVoltar": "/index.html",
+    "linkSobre": "/about.html"
+  },
+  {
+    "id": 47,
+    "titulo": "Homecoming",
+    "imagem": "/img/homecoming.jpg",
+    "sinopse": "Uma série de antologia centrada no misterioso Geist Group, uma empresa de bem-estar não convencional, e seu programa igualmente heterodoxo, a Iniciativa Homecoming.",
+    "ano": "(2018–2020)",
+    "avaliacao": "🥇",
+    "linkVoltar": "/index.html",
+    "linkSobre": "/about.html"
+  },
+  {
+    "id": 48,
+    "titulo": "House M.D.",
+    "imagem": "/img/house.jpg",
+    "sinopse": "Usando uma equipe de médicos especializados e sua astúcia, um médico antissocial e rebelde, especializado em medicina diagnóstica, faz o que for necessário para resolver os casos intrigantes que surgem em seu caminho.",
+    "ano": "(2004–2012)",
+    "avaliacao": "🥈",
+    "linkVoltar": "/index.html",
+    "linkSobre": "/about.html"
+  },
+  {
+    "id": 49,
+    "titulo": "House of the Dragon",
+    "imagem": "/img/house_of_the_dragon.jpg",
+    "sinopse": "Uma guerra interna de sucessão dentro da Casa Targaryen no auge de seu poder, 172 anos antes do nascimento de Daenerys Targaryen.",
+    "ano": "(2022)",
+    "avaliacao": "🥈",
+    "linkVoltar": "/index.html",
+    "linkSobre": "/about.html"
+  },
+  {
+    "id": 50,
+    "titulo": "Hunters",
+    "imagem": "/img/hunters.jpg",
+    "sinopse": "Em 1977, na cidade de Nova York, um jovem judeu problemático em busca de vingança é acolhido por um grupo secreto de caçadores de nazistas que lutam uma guerra clandestina contra uma célula de altos oficiais nazistas escondidos, que trabalham para criar o Quarto Reich.",
+    "ano": "(2020–2023)",
+    "avaliacao": "🥉",
+    "linkVoltar": "/index.html",
+    "linkSobre": "/about.html"
+  },
+  {
+    "id": 51,
+    "titulo": "I Am Not Okay with This",
+    "imagem": "/img/i_am_not_okay_with_this.jpg",
+    "sinopse": "Sydney é uma adolescente que enfrenta os desafios e tribulações do ensino médio, enquanto lida com as complexidades de sua família, sua sexualidade em desenvolvimento e poderes sobrenaturais misteriosos que estão começando a despertar dentro dela.",
+    "ano": "(2020)",
+    "avaliacao": "🥉",
+    "linkVoltar": "/index.html",
+    "linkSobre": "/about.html"
+  },
+  {
+    "id": 52,
+    "titulo": "Killing Eve",
+    "imagem": "/img/killing_eve.jpg",
+    "sinopse": "Após uma série de eventos, as vidas de um agente de segurança e de um assassino se tornam inextricavelmente ligadas.",
+    "ano": "(2018–2022)",
+    "avaliacao": "🥉",
+    "linkVoltar": "/index.html",
+    "linkSobre": "/about.html"
+  },
+  {
+    "id": 53,
+    "titulo": "Mare of Easttown",
+    "imagem": "/img/mare_of_easttown.jpg",
+    "sinopse": "No subúrbio fictício de Easttown, na Filadélfia, a detetive de polícia Marianne 'Mare' Sheehan investiga o recente assassinato de uma jovem mãe, enquanto tenta evitar que sua própria vida desmorone.",
+    "ano": "(2021)",
+    "avaliacao": "🥈",
+    "linkVoltar": "/index.html",
+    "linkSobre": "/about.html"
+  },
+  {
+    "id": 54,
+    "titulo": "Mayor of Kingstown",
+    "imagem": "/img/mayor_of_kingstown.jpg",
+    "sinopse": "A família McLusky atua como mediadora de poder, lidando com temas de racismo sistêmico, corrupção e desigualdade em Kingstown, Michigan, onde o negócio das prisões é a única indústria próspera.",
+    "ano": "(2021)",
+    "avaliacao": "🥉",
+    "linkVoltar": "/index.html",
+    "linkSobre": "/about.html"
+  },
+  {
+    "id": 55,
+    "titulo": "Mayor of Kingstown",
+    "imagem": "/img/modern_family.jpg",
+    "sinopse": "Três famílias diferentes, mas interligadas, enfrentam desafios e tribulações de maneiras cômicas e únicas..",
+    "ano": "(2021)",
+    "avaliacao": "🥉",
+    "linkVoltar": "/index.html",
+    "linkSobre": "/about.html"
+  },
+  {
+    "id": 56,
+    "titulo": "Mr Inbetween",
+    "imagem": "/img/mr_inbetween.jpg",
+    "sinopse": "Ray Shoesmith é pai, ex-marido, namorado, irmão e melhor amigo; papéis difíceis de conciliar nos dias de hoje. Especialmente quando você também é um criminoso de aluguel.",
+    "ano": "(2018–2021)",
+    "avaliacao": "🥇",
+    "linkVoltar": "/index.html",
+    "linkSobre": "/about.html"
+  },
+  {
+    "id": 57,
+    "titulo": "Mr. Robot",
+    "imagem": "/img/mr_robot.jpg",
+    "sinopse": "Elliot, um engenheiro brilhante, mas instável, de segurança cibernética e hacker vigilante, torna-se uma figura central em um complexo jogo de caos global quando ele e seus aliados sombrios tentam derrubar a corporação corrupta que sua empresa é paga para proteger.",
+    "ano": "(2015-2019)",
+    "avaliacao": "🥇",
+    "linkVoltar": "/index.html",
+    "linkSobre": "/about.html"
+  },
+  {
+    "id": 58,
+    "titulo": "Narcos",
+    "imagem": "/img/narcos.jpg",
+    "sinopse": "Um olhar detalhado sobre as atividades criminosas do narcotraficante colombiano Pablo Escobar, assim como de muitos outros chefões do tráfico que atormentaram o país ao longo dos anos.",
+    "ano": "(2015-2017)",
+    "avaliacao": "🥇",
+    "linkVoltar": "/index.html",
+    "linkSobre": "/about.html"
+  },
+  {
+    "id": 59,
+    "titulo": "Narcos Mexico",
+    "imagem": "/img/narcos_mexico.jpg",
+    "sinopse": "A ascensão do Cartel de Guadalajara, enquanto um agente da DEA americana descobre o perigo de perseguir narcotraficantes no México.",
+    "ano": "(2018–2021)",
+    "avaliacao": "🥈",
+    "linkVoltar": "/index.html",
+    "linkSobre": "/about.html"
+  },
+  {
+    "id": 60,
+    "titulo": "Nip/Tuck",
+    "imagem": "/img/nip_tuck.jpg",
+    "sinopse": "Dois cirurgiões plásticos — um dedicado homem de família e o outro um playboy inescrupuloso — lutam para manter o negócio enquanto enfrentam diversas dificuldades, desde problemas pessoais até clientes com conexões criminosas.",
+    "ano": "(2003–2010)",
+    "avaliacao": "🥈",
+    "linkVoltar": "/index.html",
+    "linkSobre": "/about.html"
+  },
+  {
+    "id": 61,
+    "titulo": "Only Murders in the Building",
+    "imagem": "/img/only_murders_in_the_building.jpg",
+    "sinopse": "Três estranhos — que moram no mesmo prédio em Nova York e compartilham uma obsessão por crimes reais — de repente se veem envolvidos em um assassinato.",
+    "ano": "(2021)",
+    "avaliacao": "🥉",
+    "linkVoltar": "/index.html",
+    "linkSobre": "/about.html"
+  },
+  {
+    "id": 62,
+    "titulo": "Orange Is the New Black",
+    "imagem": "/img/orange_is_the_new_black.jpg",
+    "sinopse": "Condenada por um crime de uma década atrás, relacionado ao transporte de dinheiro do tráfico, Piper Chapman, normalmente uma cidadã cumpridora da lei, é sentenciada a 18 meses de prisão e rapidamente descobre as realidades transformadoras do tempo atrás das grades.",
+    "ano": "(2013–2019)",
+    "avaliacao": "🥉",
+    "linkVoltar": "/index.html",
+    "linkSobre": "/about.html"
+  },
+  {
+    "id": 63,
+    "titulo": "Outer Range",
+    "imagem": "/img/outer_range.jpg",
+    "sinopse": "Um fazendeiro que luta por sua terra e sua família descobre um mistério incompreensível na fronteira da selva do Wyoming.",
+    "ano": "(2022–2024)",
+    "avaliacao": "🥈",
+    "linkVoltar": "/index.html",
+    "linkSobre": "/about.html"
+  },
+  {
+    "id": 64,
+    "titulo": "Oz",
+    "imagem": "/img/oz.jpg",
+    "sinopse": "Uma série que narra as atividades diárias de uma prisão incomum e seus habitantes criminosos.",
+    "ano": "(1997–2003)",
+    "avaliacao": "🥈",
+    "linkVoltar": "/index.html",
+    "linkSobre": "/about.html"
+  },
+  {
+    "id": 65,
+    "titulo": "Ozark",
+    "imagem": "/img/ozark.jpg",
+    "sinopse": "Um consultor financeiro arrasta sua família de Chicago para os Ozarks do Missouri, onde deve lavar dinheiro para apaziguar um chefe do tráfico.",
+    "ano": "(2017–2022)",
+    "avaliacao": "🥈",
+    "linkVoltar": "/index.html",
+    "linkSobre": "/about.html"
+  },
+  {
+    "id": 66,
+    "titulo": "Peaky Blinders",
+    "imagem": "/img/peaky_blinders.jpg",
+    "sinopse": "Uma épica de gangster ambientada na Inglaterra dos anos 1900, centrada em uma gangue que costura lâminas de barbear nas pontas de seus bonés, e seu feroz chefe, Tommy Shelby.",
+    "ano": "(2013–2022)",
+    "avaliacao": "🥇",
+    "linkVoltar": "/index.html",
+    "linkSobre": "/about.html"
+  },
+  {
+    "id": 67,
+    "titulo": "Prison Break",
+    "imagem": "/img/prison_break.jpg",
+    "sinopse": "Um engenheiro estrutural se instala em uma prisão que ele ajudou a projetar, com o objetivo de salvar seu irmão falsamente acusado de uma sentença de morte, planejando a fuga deles a partir de dentro.",
+    "ano": "(2005–2017)",
+    "avaliacao": "🥇",
+    "linkVoltar": "/index.html",
+    "linkSobre": "/about.html"
+  },
+  {
+    "id": 68,
+    "titulo": "Quicksand",
+    "imagem": "/img/quicksand.jpg",
+    "sinopse": "Maja, uma estudante em Estocolmo, se vê em julgamento por assassinato após uma tragédia em sua escola. Mais dúvidas e suspeitas surgem quando novas revelações são feitas.",
+    "ano": "(2019)",
+    "avaliacao": "🥉",
+    "linkVoltar": "/index.html",
+    "linkSobre": "/about.html"
+  },
+  {
+    "id": 69,
+    "titulo": "Rabbit Hole",
+    "imagem": "/img/rabbit_hole.jpg",
+    "sinopse": "John Weir, um agente de espionagem privado, luta pela preservação da democracia em um mundo constantemente em conflito.",
+    "ano": "(2023)",
+    "avaliacao": "🥉",
+    "linkVoltar": "/index.html",
+    "linkSobre": "/about.html"
+  },
+  {
+    "id": 70,
+    "titulo": "Raised by Wolves",
+    "imagem": "/img/raised_by_wolves.jpg",
+    "sinopse": "Andróides são encarregados de criar crianças humanas em um planeta misterioso.",
+    "ano": "(2020-2022)",
+    "avaliacao": "🥉",
+    "linkVoltar": "/index.html",
+    "linkSobre": "/about.html"
+  },
+  {
+    "id": 71,
+    "titulo": "Ray Donovan",
+    "imagem": "/img/ray_donovan.jpg",
+    "sinopse": "Ray Donovan, um 'resolve' profissional para os ricos e famosos em Los Angeles, consegue fazer os problemas de qualquer um desaparecerem, exceto aqueles criados por sua própria família.",
+    "ano": "(2013–2020)",
+    "avaliacao": "🥇",
+    "linkVoltar": "/index.html",
+    "linkSobre": "/about.html"
+  },
+  {
+    "id": 72,
+    "titulo": "Reacher",
+    "imagem": "/img/reacher.jpg",
+    "sinopse": "O ex-policial militar itinerante Jack Reacher resolve crimes e aplica sua própria forma de justiça nas ruas. Baseado nos romances de Lee Child.",
+    "ano": "(2022)",
+    "avaliacao": "🥉",
+    "linkVoltar": "/index.html",
+    "linkSobre": "/about.html"
+  },
+  {
+    "id": 73,
+    "titulo": "Severance",
+    "imagem": "/img/severance.jpg",
+    "sinopse": "Mark lidera uma equipe de trabalhadores de escritório cujas memórias foram cirurgicamente divididas entre suas vidas profissionais e pessoais. Quando um colega misterioso aparece fora do trabalho, isso inicia uma jornada para descobrir a verdade sobre seus empregos.",
+    "ano": "(2022)",
+    "avaliacao": "🥇",
+    "linkVoltar": "/index.html",
+    "linkSobre": "/about.html"
+  },
+  {
+    "id": 74,
+    "titulo": "Sherlock",
+    "imagem": "/img/sherlock.jpg",
+    "sinopse": "A versão peculiar do icônico detetive de Conan Doyle apresenta Sherlock Holmes como um 'sociopata de alto funcionamento' na Londres moderna. Ajudando-o em suas investigações está John Watson, um veterano da Guerra do Afeganistão, que é apresentado a Holmes por um conhecido em comum.",
+    "ano": "(2010–2017)",
+    "avaliacao": "🥈",
+    "linkVoltar": "/index.html",
+    "linkSobre": "/about.html"
+  },
+  {
+    "id": 75,
+    "titulo": "Shrinking",
+    "imagem": "/img/shrinking.jpg",
+    "sinopse": "Um terapeuta em luto começa a dizer a seus clientes exatamente o que pensa. Ignorando seu treinamento e ética, ele se vê fazendo grandes mudanças na vida das pessoas — incluindo a sua própria.",
+    "ano": "(2023)",
+    "avaliacao": "🥈",
+    "linkVoltar": "/index.html",
+    "linkSobre": "/about.html"
+  },
+  {
+    "id": 76,
+    "titulo": "Silo",
+    "imagem": "/img/silo.jpg",
+    "sinopse": "Homens e mulheres vivem em um enorme silo subterrâneo com várias regras que acreditam estar em vigor para protegê-los do mundo tóxico e arruinado na superfície.",
+    "ano": "(2023)",
+    "avaliacao": "🥈",
+    "linkVoltar": "/index.html",
+    "linkSobre": "/about.html"
+  },
+  {
+    "id": 77,
+    "titulo": "Slow Horses",
+    "imagem": "/img/slow_horses.jpg",
+    "sinopse": "Acompanha uma equipe de agentes de inteligência britânicos que servem como um departamento de descarte do MI5 devido a erros que arruinaram suas carreiras.",
+    "ano": "(2022)",
+    "avaliacao": "🥉",
+    "linkVoltar": "/index.html",
+    "linkSobre": "/about.html"
+  },
+  {
+    "id": 78,
+    "titulo": "Snowfall",
+    "imagem": "/img/snowfall.jpg",
+    "sinopse": "Um olhar sobre os primeiros dias da epidemia de crack cocaine em Los Angeles no início da década de 1980.",
+    "ano": "(2017–2023)",
+    "avaliacao": "🥇",
+    "linkVoltar": "/index.html",
+    "linkSobre": "/about.html"
+  },
+  {
+    "id": 79,
+    "titulo": "Snowpiercer",
+    "imagem": "/img/snowpiercer.jpg",
+    "sinopse": "Sete anos após o mundo se tornar um deserto congelado, os remanescentes da humanidade habitam um trem em movimento perpétuo que circunda o globo, onde a guerra de classes, a injustiça social e a política da sobrevivência se desenrolam.",
+    "ano": "(2020-2024)",
+    "avaliacao": "🥉",
+    "linkVoltar": "/index.html",
+    "linkSobre": "/about.html"
+  },
+  {
+    "id": 80,
+    "titulo": "Sons of Anarchy",
+    "imagem": "/img/sons_of_anarchy.jpg",
+    "sinopse": "Um motociclista luta para equilibrar sua paternidade com a participação em um clube de motociclistas fora da lei.",
+    "ano": "(2008–2014)",
+    "avaliacao": "🥇",
+    "linkVoltar": "/index.html",
+    "linkSobre": "/about.html"
+  },
+  {
+    "id": 81,
+    "titulo": "Soulmates",
+    "imagem": "/img/soulmates.jpg",
+    "sinopse": "Num futuro próximo, cientistas fazem uma descoberta monumental — uma maneira de encontrar a alma gêmea. Cada episódio autônomo ilustra o custo potencial de encontrar o verdadeiro amor.",
+    "ano": "(2021-2025)",
+    "avaliacao": "🥉",
+    "linkVoltar": "/index.html",
+    "linkSobre": "/about.html"
+  },
+  {
+    "id": 82,
+    "titulo": "Squid Game",
+    "imagem": "/img/squid_game.jpg",
+    "sinopse": "Centenas de jogadores endividados aceitam um estranho convite para competir em jogos de crianças. Dentro, um prêmio tentador os aguarda, com apostas mortalmente altas: um jogo de sobrevivência com um prêmio impressionante de 45,6 bilhões de won em jogo.",
+    "ano": "(2008–2014)",
+    "avaliacao": "🥈",
+    "linkVoltar": "/index.html",
+    "linkSobre": "/about.html"
+  },
+  {
+    "id": 83,
+    "titulo": "Succession",
+    "imagem": "/img/succession.jpg",
+    "sinopse": "A família Roy é conhecida por controlar a maior empresa de mídia e entretenimento do mundo. No entanto, seu mundo muda quando o pai deles se afasta da empresa.",
+    "ano": "(2018–2023)",
+    "avaliacao": "🥇",
+    "linkVoltar": "/index.html",
+    "linkSobre": "/about.html"
+  },
+  {
+    "id": 84,
+    "titulo": "Suits",
+    "imagem": "/img/suits.jpg",
+    "sinopse": "Fugindo de um acordo de drogas que deu errado, o brilhante estudante universitário desistente Mike Ross se vê trabalhando com Harvey Specter, um dos melhores advogados da cidade de Nova York.",
+    "ano": "(2011–2019)",
+    "avaliacao": "🥉",
+    "linkVoltar": "/index.html",
+    "linkSobre": "/about.html"
+  },
+  {
+    "id": 85,
+    "titulo": "The Alienist",
+    "imagem": "/img/the_alienist.jpg",
+    "sinopse": "O ilustrador de jornais John Moore se encontra com o psicólogo criminal (alienista) Dr. Laszlo Kreizler para investigar um serial killer em Nova York durante o final do século 19.",
+    "ano": "(2018–2020)",
+    "avaliacao": "🥉",
+    "linkVoltar": "/index.html",
+    "linkSobre": "/about.html"
+  },
+  {
+    "id": 86,
+    "titulo": "The Americans",
+    "imagem": "/img/the_americans.jpg",
+    "sinopse": "No auge da Guerra Fria, dois agentes russos se fazem passar por um casal americano comum, completo com uma família.",
+    "ano": "(2013–2018)",
+    "avaliacao": "🥇",
+    "linkVoltar": "/index.html",
+    "linkSobre": "/about.html"
+  },
+  {
+    "id": 87,
+    "titulo": "The Bear",
+    "imagem": "/img/the_bear.jpg",
+    "sinopse": "Um jovem chef do mundo da alta gastronomia retorna a Chicago para administrar a loja de sanduíches da sua família.",
+    "ano": "(2022)",
+    "avaliacao": "🥇",
+    "linkVoltar": "/index.html",
+    "linkSobre": "/about.html"
+  },
+  {
+    "id": 88,
+    "titulo": "The boys",
+    "imagem": "/img/the_boys.jpg",
+    "sinopse": "Um grupo de vigilantes decide desmantelar super-heróis corruptos que abusam de seus superpoderes.",
+    "ano": "(2019)",
+    "avaliacao": "🥉",
+    "linkVoltar": "/index.html",
+    "linkSobre": "/about.html"
+  },
+  {
+    "id": 89,
+    "titulo": "The Crowded Room",
+    "imagem": "/img/the_crowded_room.jpg",
+    "sinopse": "No verão de 1979, em Manhattan, um jovem é preso por um crime chocante, e um investigador improvável deve desvendar o mistério por trás disso antes que o verdadeiro criminoso ataque novamente.",
+    "ano": "(2023)",
+    "avaliacao": "🥈",
+    "linkVoltar": "/index.html",
+    "linkSobre": "/about.html"
+  },
+  {
+    "id": 90,
+    "titulo": "The Diplomat",
+    "imagem": "/img/the_diplomat.jpg",
+    "sinopse": "No meio de uma crise internacional, Kate Wyler, uma diplomata de carreira, assume um cargo de alto perfil para o qual não está preparada, com implicações tectônicas para seu casamento e seu futuro político.",
+    "ano": "(2023)",
+    "avaliacao": "🥈",
+    "linkVoltar": "/index.html",
+    "linkSobre": "/about.html"
+  },
+  {
+    "id": 91,
+    "titulo": "The Dropout",
+    "imagem": "/img/the_dropout.jpg",
+    "sinopse": "Série de TV que narra a tentativa da fundadora da Theranos, Elizabeth Holmes, de revolucionar a indústria da saúde após abandonar a faculdade e fundar uma empresa de tecnologia.",
+    "ano": "(2022)",
+    "avaliacao": "🥉",
+    "linkVoltar": "/index.html",
+    "linkSobre": "/about.html"
+  },
+  {
+    "id": 92,
+    "titulo": "The End of the F***ing World",
+    "imagem": "/img/the_end_of_the_fucking_world.jpg",
+    "sinopse": "James tem 17 anos e está bastante certo de que é um psicopata. Alyssa, também de 17 anos, é a nova garota da escola, cheia de atitude e mal-humor. O par cria uma conexão e ela o convence a embarcar em uma viagem de carro em busca de seu verdadeiro pai.",
+    "ano": "(2017-2019)",
+    "avaliacao": "🥉",
+    "linkVoltar": "/index.html",
+    "linkSobre": "/about.html"
+  },
+  {
+    "id": 93,
+    "titulo": "The Handmaid's Tale",
+    "imagem": "/img/the_handmaid's_tale.jpg",
+    "sinopse": "Ambientada em um futuro distópico, uma mulher é forçada a viver como uma concubina sob uma ditadura teocrática fundamentalista.",
+    "ano": "(2017-2025)",
+    "avaliacao": "🥈",
+    "linkVoltar": "/index.html",
+    "linkSobre": "/about.html"
+  },
+  {
+    "id": 94,
+    "titulo": "The Killing",
+    "imagem": "/img/the_killing.jpg",
+    "sinopse": "Uma investigação policial, a saga de uma família em luto e uma campanha para a prefeitura de Seattle se entrelaçam após o corpo de Rosie Larsen, de 17 anos, ser encontrado no porta-malas de um carro submerso.",
+    "ano": "(2011–2014)",
+    "avaliacao": "🥇",
+    "linkVoltar": "/index.html",
+    "linkSobre": "/about.html"
+  },
+  {
+    "id": 95,
+    "titulo": "The Last of Us",
+    "imagem": "/img/the_last_of_us.jpg",
+    "sinopse": "Após uma pandemia global destruir a civilização, um sobrevivente endurecido assume a responsabilidade por uma garota de 14 anos que pode ser a última esperança da humanidade.",
+    "ano": "(2023)",
+    "avaliacao": "🥈",
+    "linkVoltar": "/index.html",
+    "linkSobre": "/about.html"
+  },
+  {
+    "id": 96,
+    "titulo": "The Leftovers",
+    "imagem": "/img/the_leftovers.jpg",
+    "sinopse": "Três anos após o desaparecimento de 2% da população humana global, um grupo de pessoas em uma pequena comunidade de Nova York tenta seguir suas vidas enquanto lidam com a tragédia da natureza inexplicável do evento.",
+    "ano": "(2014–2017)",
+    "avaliacao": "🥇",
+    "linkVoltar": "/index.html",
+    "linkSobre": "/about.html"
+  },
+  {
+    "id": 97,
+    "titulo": "The Night Manager",
+    "imagem": "/img/the_night_manager.jpg",
+    "sinopse": "O gerente noturno de um hotel no Cairo é recrutado para se infiltrar no círculo íntimo de um traficante de armas.",
+    "ano": "(2016-2025)",
+    "avaliacao": "🥉",
+    "linkVoltar": "/index.html",
+    "linkSobre": "/about.html"
+  },
+  {
+    "id": 98,
+    "titulo": "The Night Of",
+    "imagem": "/img/the_night_of.jpg",
+    "sinopse": "Após uma noite de festas com uma mulher que ele conheceu, um homem acorda para descobrir que ela foi morta a facadas e é acusado de seu assassinato.",
+    "ano": "(2016)",
+    "avaliacao": "🥇",
+    "linkVoltar": "/index.html",
+    "linkSobre": "/about.html"
+  },
+  {
+    "id": 99,
+    "titulo": "The Patient",
+    "imagem": "/img/the_patient.jpg",
+    "sinopse": "Um psicoterapeuta se vê feito prisioneiro por um serial killer que exige sua ajuda para controlar seus impulsos homicidas.",
+    "ano": "(2022)",
+    "avaliacao": "🥈",
+    "linkVoltar": "/index.html",
+    "linkSobre": "/about.html"
+  },
+  {
+    "id": 100,
+    "titulo": "The Queen's Gambit",
+    "imagem": "/img/the_queen's_gambit.jpg",
+    "sinopse": "Órfã desde os nove anos, a prodigiosa introvertida Beth Harmon descobre e domina o jogo de xadrez na Estados Unidos dos anos 1960. Mas a fama infantil vem com um preço.",
+    "ano": "(2020)",
+    "avaliacao": "🥈",
+    "linkVoltar": "/index.html",
+    "linkSobre": "/about.html"
+  },
+  {
+    "id": 101,
+    "titulo": "The Sinner",
+    "imagem": "/img/the_sinner.jpg",
+    "sinopse": "O detetive Ambrose emprega táticas incomuns e uma profunda capacidade de empatia para resolver seus casos. Sua dedicação sem limites é impulsionada por um passado sombrio, levando-o a formar laços poderosos e frequentemente perigosamente íntimos com seus suspeitos.",
+    "ano": "(2017–2021)",
+    "avaliacao": "🥇",
+    "linkVoltar": "/index.html",
+    "linkSobre": "/about.html"
+  },
+  {
+    "id": 102,
+    "titulo": "The Staircase",
+    "imagem": "/img/the_staircase.jpg",
+    "sinopse": "Conta a história de Michael Peterson, um romancista policial acusado de matar sua esposa Kathleen, após ela ser encontrada morta no fundo de uma escada em sua casa, e a batalha judicial de 16 anos que se seguiu.",
+    "ano": "(2022)",
+    "avaliacao": "🥈",
+    "linkVoltar": "/index.html",
+    "linkSobre": "/about.html"
+  },
+  {
+    "id": 103,
+    "titulo": "The Walking Dead",
+    "imagem": "/img/the_walking_dead.jpg",
+    "sinopse": "O vice-xerife Rick Grimes acorda de um coma e descobre que o mundo está em ruínas, precisando liderar um grupo de sobreviventes para se manter vivo.",
+    "ano": "(2010–2022)",
+    "avaliacao": "🥈",
+    "linkVoltar": "/index.html",
+    "linkSobre": "/about.html"
+  },
+  {
+    "id": 104,
+    "titulo": "The White Lotus",
+    "imagem": "/img/the_white_lotus.jpg",
+    "sinopse": "As aventuras de diversos hóspedes e funcionários de um resort de luxo ao longo de uma semana.",
+    "ano": "(2021–2025)",
+    "avaliacao": "🥈",
+    "linkVoltar": "/index.html",
+    "linkSobre": "/about.html"
+  },
+  {
+    "id": 105,
+    "titulo": "The Wire",
+    "imagem": "/img/the_wire.jpg",
+    "sinopse": "A cena das drogas em Baltimore, vista pelos olhos de traficantes e da polícia.",
+    "ano": "(2002–2008)",
+    "avaliacao": "🥇",
+    "linkVoltar": "/index.html",
+    "linkSobre": "/about.html"
+  },
+  {
+    "id": 106,
+    "titulo": "Time",
+    "imagem": "/img/time.jpg",
+    "sinopse": "Eric é um agente penitenciário que tenta proteger aqueles sob sua responsabilidade. Quando um dos prisioneiros mais perigosos identifica sua fraqueza, Eric enfrenta uma escolha impossível entre seus princípios e seu amor pela família.",
+    "ano": "(2021)",
+    "avaliacao": "🥉",
+    "linkVoltar": "/index.html",
+    "linkSobre": "/about.html"
+  },
+  {
+    "id": 107,
+    "titulo": "Tokyo Vice",
+    "imagem": "/img/tokyo_vice.jpg",
+    "sinopse": "Um jornalista ocidental que trabalha para uma publicação em Tóquio enfrenta um dos chefes do crime mais poderosos da cidade.",
+    "ano": "(2022)",
+    "avaliacao": "🥈",
+    "linkVoltar": "/index.html",
+    "linkSobre": "/about.html"
+  },
+  {
+    "id": 108,
+    "titulo": "True Detective",
+    "imagem": "/img/true_detective.jpg",
+    "sinopse": "Série de antologia em que investigações policiais revelam os segredos pessoais e profissionais dos envolvidos, tanto dentro quanto fora da lei.",
+    "ano": "(2014)",
+    "avaliacao": "🥇",
+    "linkVoltar": "/index.html",
+    "linkSobre": "/about.html"
+  },
+  {
+    "id": 109,
+    "titulo": "Undercover",
+    "imagem": "/img/undercover.jpg",
+    "sinopse": "Inspirados em eventos reais, agentes disfarçados se infiltram na operação de um rei do tráfico, fazendo-se passar por um casal no acampamento onde ele passa seus finais de semana.",
+    "ano": "(2019-2022)",
+    "avaliacao": "🥈",
+    "linkVoltar": "/index.html",
+    "linkSobre": "/about.html"
+  },
+  {
+    "id": 110,
+    "titulo": "Upload",
+    "imagem": "/img/upload.jpg",
+    "sinopse": "Após sua morte prematura, a consciência de um homem é transferida para um mundo virtual. À medida que ele se familiariza com seu novo ambiente, surgem questões sobre sua morte.",
+    "ano": "(2020)",
+    "avaliacao": "🥉",
+    "linkVoltar": "/index.html",
+    "linkSobre": "/about.html"
+  },
+  {
+    "id": 111,
+    "titulo": "Vikings",
+    "imagem": "/img/vikings.jpg",
+    "sinopse": "Vikings nos transporta para o mundo brutal e misterioso de Ragnar Lothbrok, um guerreiro e agricultor viking que deseja explorar — e saquear — as distantes praias do outro lado do oceano.",
+    "ano": "(2013–2020)",
+    "avaliacao": "🥈",
+    "linkVoltar": "/index.html",
+    "linkSobre": "/about.html"
+  },
+  {
+    "id": 112,
+    "titulo": "Westworld",
+    "imagem": "/img/westworld.jpg",
+    "sinopse": "Na interseção do futuro próximo e do passado reimaginado, existe um mundo onde todos os apetites humanos podem ser satisfeitos sem consequências.",
+    "ano": "(2016–2022)",
+    "avaliacao": "🥈",
+    "linkVoltar": "/index.html",
+    "linkSobre": "/about.html"
+  },
+  {
+    "id": 113,
+    "titulo": "Yellowstone",
+    "imagem": "/img/yellowstone.jpg",
+    "sinopse": "Uma família de pecuaristas em Montana enfrenta outras que estão invadindo suas terras.",
+    "ano": "(2018)",
+    "avaliacao": "🥇",
+    "linkVoltar": "/index.html",
+    "linkSobre": "/about.html"
+  },
+  {
+    "id": 114,
+    "titulo": "Your Honor",
+    "imagem": "/img/your_honor.jpg",
+    "sinopse": "Um juiz confronta suas convicções quando seu filho se envolve em um atropelamento e fuga que envolve uma família do crime organizado.",
+    "ano": "(2020–2023)",
+    "avaliacao": "🥇",
+    "linkVoltar": "/index.html",
+    "linkSobre": "/about.html"
+  },
+  {
+    "id": 115,
+    "titulo": "ZeroZeroZero",
+    "imagem": "/img/zerozerozero.jpg",
+    "sinopse": "Uma remessa de cocaína segue para a Europa, começando no momento em que um poderoso cartel de criminosos italianos decide comprá-la, passando por suas jornadas pelo México e seu transporte através do Oceano Atlântico.",
+    "ano": "(2019–2020)",
+    "avaliacao": "🥉",
+    "linkVoltar": "/index.html",
+    "linkSobre": "/about.html"
+  },
+  {
+    "id": 116,
+    "titulo": "11.22.63",
+    "imagem": "/img/11.22.63.jpg",
+    "sinopse": "Jake Epping, um professor, tem a oportunidade de viajar no tempo para evitar a morte de John F. Kennedy. No entanto, a aversão da história a alterações e seu amor pela época, além de uma mulher, o colocam em perigo.",
+    "ano": "(2017–2021)",
+    "avaliacao": "🥉",
+    "linkVoltar": "/index.html",
+    "linkSobre": "/about.html"
+  },
+  {
+    "id": 117,
+    "titulo": "1883",
+    "imagem": "/img/1883.jpg",
+    "sinopse": "A geração da família Dutton após a Guerra Civil viaja para o Texas e se junta a uma caravana que enfrenta a árdua jornada para o oeste em direção a Oregon, antes de se estabelecer em Montana para fundar o que se tornaria eventualmente o Yellowstone Ranch.",
+    "ano": "(2021–2022)",
+    "avaliacao": "🥉",
+    "linkVoltar": "/index.html",
+    "linkSobre": "/about.html"
+  },
+  {
+    "id": 118,
+    "titulo": "1923",
+    "imagem": "/img/1923.jpg",
+    "sinopse": "Os Duttons enfrentam um novo conjunto de desafios no início do século 20, incluindo a ascensão da expansão do Oeste, a Proibição e a Grande Depressão.",
+    "ano": " (2022–2023)",
+    "avaliacao": "🥉",
+    "linkVoltar": "/index.html",
+    "linkSobre": "/about.html"
+  },
+  {
+    "id": 119,
+    "titulo": "American Gods",
+    "imagem": "/img/american_gods.jpg",
+    "sinopse": "Um ex-presidiário recém-libertado chamado Shadow encontra um homem misterioso que se apresenta como 'Quarta-feira' e que parece saber mais sobre a vida e o passado de Shadow do que aparenta.",
+    "ano": "(2017–2021)",
+    "avaliacao": "🥇",
+    "linkVoltar": "/index.html",
+    "linkSobre": "/about.html"
+  },
+  {
+    "id": 120,
+    "titulo": "Animal Kingdom",
+    "imagem": "/img/animal_kingdom.jpg",
+    "sinopse": "Foca em uma família do sul da Califórnia, cujo estilo de vida excessivo é alimentado por suas atividades criminosas.",
+    "ano": "(2016–2022)",
+    "avaliacao": "🥈",
+    "linkVoltar": "/index.html",
+    "linkSobre": "/about.html"
+  },
+  {
+    "id": 121,
+    "titulo": "1899",
+    "imagem": "/img/1899.jpg",
+    "sinopse": "Imigrantes multinacionais que viajam do velho continente para o novo encontram um enigma de pesadelo a bordo de um segundo navio à deriva no mar aberto.",
+    "ano": "(2022)",
+    "avaliacao": "🥉",
+    "linkVoltar": "/index.html",
+    "linkSobre": "/about.html"
+  },
+  {
+    "id": 122,
+    "titulo": "Sharp Objects",
+    "imagem": "/img/sharp_objects.jpg",
+    "sinopse": "Após tratar de sua doença mental, a repórter criminal Camille Preaker retorna à sua cidade natal para investigar o assassinato de duas meninas. No entanto, ela é forçada a enfrentar e lidar com seus próprios demônios também.",
+    "ano": "(2018)",
+    "avaliacao": "🥈",
+    "linkVoltar": "/index.html",
+    "linkSobre": "/about.html"
+  }
+]
