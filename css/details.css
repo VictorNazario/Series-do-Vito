@@ -1,0 +1,43 @@
+/* Estilos da página de detalhes */
+.detalhes {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    min-height: 95vh;
+    flex-grow: 1;
+}
+
+.detalhes-serie {
+    text-align: center;
+    color: #e0e0e0;
+    flex-grow: 1;
+}
+
+.detalhes-serie img {
+    border-radius: 10px;
+    width: 25%;
+    margin-top: 10px;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.linkVoltar, .linkSobre {
+    background-color: #2e2e2e;
+    color: white;
+    border: none;
+    border-radius: 50px;
+    padding: 10px 15px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}

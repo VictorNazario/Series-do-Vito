@@ -9,7 +9,7 @@
   <body>
     <div class="container">
       <header>
-        <button id="random-series" class="nav-button">Série Aleatória</button>
+        <button id="random-series" class="nav-button">Aleatória</button>
 
         <div class="filter-bar">
           <button class="filter-emoji" data-filter="🥇">
@@ -36,105 +36,6 @@
       </main>
     </div>
 
-    <script>
-      let seriesData = [];
-      let currentFilter = null; // Variável para armazenar o filtro atual
-
-      // Função para carregar as séries a partir do JSON
-      function loadSeries() {
-        return fetch("series.json")
-          .then((response) => response.json())
-          .then((data) => {
-            seriesData = data; // Armazena os dados para uso posterior na busca e filtro
-            displaySeries(seriesData); // Exibe as séries inicialmente
-          })
-          .catch((error) => console.error("Erro ao carregar séries:", error));
-      }
-
-      // Função para exibir as séries
-      function displaySeries(series) {
-        const grid = document.getElementById("series-grid");
-        grid.innerHTML = ""; // Limpa o grid antes de exibir novas séries
-        series.forEach((serie) => {
-          const serieElement = `
-            <a href="serie.html?id=${serie.id}">
-              <img src="${serie.imagem}" alt="Capa da série ${serie.titulo}">
-              <h2>${serie.titulo}${serie.avaliacao}</h2>
-            </a>
-          `;
-          grid.innerHTML += serieElement;
-        });
-      }
-
-      // Função para pesquisar séries
-      function searchSeries() {
-        const searchTerm = document.getElementById("search").value.toLowerCase();
-        const filteredSeries = seriesData.filter((serie) =>
-          serie.titulo.toLowerCase().includes(searchTerm)
-        );
-        displaySeries(filteredSeries); // Exibe apenas as séries que correspondem à busca
-      }
-
-      // Função para filtrar séries por avaliação (🥇, 🥈, 🥉)
-      function filterByAvaliacao(avaliacao) {
-        if (currentFilter === avaliacao) {
-          // Se o filtro já estiver ativo, remove o filtro e exibe todas as séries
-          currentFilter = null;
-          displaySeries(seriesData);
-        } else {
-          // Se o filtro não estiver ativo, aplica o filtro
-          currentFilter = avaliacao;
-          const filteredSeries = seriesData.filter(
-            (serie) => serie.avaliacao === avaliacao
-          );
-          displaySeries(filteredSeries); // Exibe apenas as séries que correspondem ao filtro
-        }
-      }
-
-      // Função para selecionar uma série aleatória
-      function randomSeries() {
-        if (seriesData.length === 0) return; // Verifica se há séries carregadas
-        const randomIndex = Math.floor(Math.random() * seriesData.length);
-        const randomSerie = seriesData[randomIndex];
-        window.location.href = `serie.html?id=${randomSerie.id}`;
-      }
-
-      // Função para verificar o parâmetro de busca na URL e realizar a pesquisa
-      function checkSearchParam() {
-        const urlParams = new URLSearchParams(window.location.search);
-        const searchTerm = urlParams.get('search');
-        
-        if (searchTerm) {
-          document.getElementById("search").value = searchTerm;
-          searchSeries(); // Executa a busca automaticamente
-        }
-      }
-
-      // Event listeners
-      document.getElementById("random-series").addEventListener("click", randomSeries);
-      document.getElementById("search-button").addEventListener("click", searchSeries);
-
-      // Event listeners para os emojis de filtro
-      document.querySelectorAll(".filter-emoji").forEach((button) => {
-        button.addEventListener("click", function () {
-          const avaliacao = button.getAttribute("data-filter");
-          filterByAvaliacao(avaliacao);
-        });
-      });
-
-      // Listener para busca com "Enter"
-      document.getElementById("search").addEventListener("keydown", function(event) {
-        if (event.key === "Enter") {
-          searchSeries(); // Aciona a busca ao pressionar Enter
-        }
-      });
-
-      // Carrega as séries e só então verifica o termo de busca
-      window.addEventListener("load", () => {
-        loadSeries().then(() => {
-          checkSearchParam(); // Só executa a busca depois que as séries forem carregadas
-        });
-      });
-    </script>
+    <script src="js/main.js"></script>
   </body>
 </html>

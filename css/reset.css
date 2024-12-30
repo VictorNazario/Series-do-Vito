@@ -1,0 +1,19 @@
+/* Reset e estilos base */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: #e0e0e0;
+    text-align: center;
+    line-height: 1.6;
+    background-color: #121212;
+    padding: 20px;
+}
+
+a {
+    text-decoration: none;
+}

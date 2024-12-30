@@ -1,0 +1,64 @@
+/* Estilos do grid de séries */
+.series-grid {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 10px;
+    justify-items: center;
+}
+
+.series-grid a {
+    color: #fff;
+    font-size: 14px;
+    position: relative;
+    display: block;
+    transition: transform 0.3s ease;
+    overflow: hidden;
+}
+
+.series-grid a:hover {
+    transform: translateY(-5px);
+}
+
+.series-grid img {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+    margin-top: 10px;
+}
+
+/* Efeito de overlay ao passar o mouse */
+.series-grid a::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: calc(100% - 35px); /* Ajuste para não cobrir o título */
+    background: linear-gradient(rgba(0,0,0,0), rgba(46,46,46,0.8));
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    border-radius: 10px;
+}
+
+.series-grid a:hover::after {
+    opacity: 1;
+}
+
+/* Efeito de brilho na imagem */
+.series-grid a:hover img {
+    filter: brightness(1.1);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+}
+
+/* Efeito no título */
+.series-grid h2 {
+    transition: color 0.3s ease;
+    margin-top: 8px;
+}
+
+.series-grid a:hover h2 {
+    color: #fff;
+    text-shadow: 0 0 5px rgba(255,255,255,0.3);
+}
