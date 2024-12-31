@@ -1,13 +1,25 @@
 // Variáveis globais
 let seriesData = [];
 let currentFilter = null;
+let displayedSeries = [];
+
+// Função para embaralhar o array
+function shuffleArray(array) {
+    const shuffled = [...array];
+    for (let i = shuffled.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
+    }
+    return shuffled;
+}
 
 // Funções principais
 async function loadSeries() {
     try {
         const response = await fetch("series.json");
         seriesData = await response.json();
-        displaySeries(seriesData);
+        displayedSeries = shuffleArray(seriesData);
+        displaySeries(displayedSeries);
     } catch (error) {
         console.error("Erro ao carregar séries:", error);
     }
@@ -29,23 +41,38 @@ function displaySeries(series) {
 
 function searchSeries() {
     const searchTerm = document.getElementById("search").value.toLowerCase();
-    const filteredSeries = seriesData.filter((serie) =>
-        serie.titulo.toLowerCase().includes(searchTerm)
-    );
-    displaySeries(filteredSeries);
+    const isDetailsPage = document.body.classList.contains("detalhes");
+
+    if (isDetailsPage) {
+        window.location.href = `index.html?search=${encodeURIComponent(searchTerm)}`;
+    } else {
+        const filteredSeries = seriesData.filter((serie) =>
+            serie.titulo.toLowerCase().includes(searchTerm)
+        );
+        displayedSeries = shuffleArray(filteredSeries);
+        displaySeries(displayedSeries);
+    }
 }
 
-function filterByAvaliacao(avaliacao) {
-    if (currentFilter === avaliacao) {
+function filterByEmoji(emoji, clickedButton) {
+    // Remover classe active de todos os botões
+    const filterButtons = document.querySelectorAll('.filter-emoji');
+    filterButtons.forEach(button => button.classList.remove('active'));
+
+    if (currentFilter === emoji) {
+        // Se clicar no mesmo filtro, remove o filtro
         currentFilter = null;
-        displaySeries(seriesData);
+        displayedSeries = shuffleArray(seriesData);
     } else {
-        currentFilter = avaliacao;
+        // Se clicar em um novo filtro, aplica o filtro e adiciona classe active
+        currentFilter = emoji;
+        clickedButton.classList.add('active');
         const filteredSeries = seriesData.filter(
-            (serie) => serie.avaliacao === avaliacao
+            (serie) => serie.avaliacao === emoji
         );
-        displaySeries(filteredSeries);
+        displayedSeries = shuffleArray(filteredSeries);
     }
+    displaySeries(displayedSeries);
 }
 
 function randomSeries() {
@@ -58,52 +85,75 @@ function randomSeries() {
 function checkSearchParam() {
     const urlParams = new URLSearchParams(window.location.search);
     const searchTerm = urlParams.get('search');
-    
+
     if (searchTerm) {
         document.getElementById("search").value = searchTerm;
         searchSeries();
     }
 }
 
-// Inicialização e Event Listeners
+async function loadSerieDetails() {
+    const urlParams = new URLSearchParams(window.location.search);
+    const serieId = urlParams.get("id");
+
+    try {
+        const response = await fetch("series.json");
+        const data = await response.json();
+        const serie = data.find((s) => s.id == serieId);
+
+        if (serie) {
+            document.title = serie.titulo;
+            document.getElementById("serie-imagem").src = serie.imagem;
+            document.getElementById("serie-imagem").alt = `Capa da série ${serie.titulo}`;
+            document.getElementById("serie-sinopse").textContent = serie.sinopse;
+            document.getElementById("serie-ano").textContent = serie.ano;
+            document.getElementById("serie-avaliacao").textContent = `Avaliação: ${serie.avaliacao}`;
+            document.getElementById("link-voltar").href = "/index.html";
+            document.getElementById("link-sobre").href = "/sobre.html";
+        } else {
+            document.body.innerHTML = "<p>Série não encontrada.</p>";
+        }
+    } catch (error) {
+        console.error("Erro ao carregar detalhes da série:", error);
+    }
+}
+
 function initializeApp() {
-    // Botões e eventos de clique
-    document.getElementById("random-series").addEventListener("click", randomSeries);
-    document.getElementById("search-button").addEventListener("click", searchSeries);
-
-    // No evento de clique dos filtros, adicione:
-document.querySelectorAll(".filter-emoji").forEach((button) => {
-    button.addEventListener("click", function () {
-        const avaliacao = button.getAttribute("data-filter");
-        
-        // Remove a classe active de todos os botões
-        document.querySelectorAll(".filter-emoji").forEach(btn => {
-            btn.classList.remove("active");
-        });
-        
-        // Adiciona a classe active apenas se não for desativar o filtro
-        if (currentFilter !== avaliacao) {
-            button.classList.add("active");
-        }
-        
-        filterByAvaliacao(avaliacao);
-    });
-});
-
-    // Busca com Enter
-    document.getElementById("search").addEventListener("keydown", function(event) {
-        if (event.key === "Enter") {
-            searchSeries();
-        }
-    });
-
-    // Carrega as séries e verifica parâmetros de busca
     loadSeries().then(() => {
-        checkSearchParam();
+        const isDetailsPage = document.body.classList.contains("detalhes");
+
+        if (isDetailsPage) {
+            loadSerieDetails();
+        } else {
+            checkSearchParam();
+        }
+
+        // Configurar evento do botão aleatório
+        const randomButton = document.getElementById("random-series");
+        if (randomButton) {
+            randomButton.addEventListener("click", randomSeries);
+        }
+
+        // Configurar eventos de busca
+        const searchButton = document.getElementById("search-button");
+        const searchInput = document.getElementById("search");
+
+        if (searchButton && searchInput) {
+            searchButton.addEventListener("click", searchSeries);
+            searchInput.addEventListener("keydown", function (event) {
+                if (event.key === "Enter") searchSeries();
+            });
+        }
+
+        // Configurar eventos dos botões de filtro
+        const filterButtons = document.querySelectorAll('.filter-emoji');
+        filterButtons.forEach(button => {
+            button.addEventListener('click', () => {
+                const emoji = button.getAttribute('data-filter');
+                filterByEmoji(emoji, button);
+            });
+        });
     });
 }
 
-
-
-// Inicializa a aplicação quando o DOM estiver carregado
 document.addEventListener('DOMContentLoaded', initializeApp);
