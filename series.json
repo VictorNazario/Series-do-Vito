@@ -1218,5 +1218,45 @@
     "avaliacao": "🥈",
     "linkVoltar": "/index.html",
     "linkSobre": "/about.html"
+  },
+  {
+    "id": 123,
+    "titulo": "The Sympathizer",
+    "imagem": "/img/the_sympathizer.jpg",
+    "sinopse": "Perto do fim da Guerra do Vietnã, um infiltrado no exército do Vietnã do Sul foge para os Estados Unidos e passa a viver em uma comunidade de refugiados, onde continua secretamente espionando e enviando relatórios para o Viet Cong.",
+    "ano": "(2024)",
+    "avaliacao": "🥈",
+    "linkVoltar": "/index.html",
+    "linkSobre": "/about.html"
+  },
+  {
+    "id": 124,
+    "titulo": "Eric",
+    "imagem": "/img/eric.jpg",
+    "sinopse": "IVincent, um pai devastado pelo luto após o desaparecimento de seu filho, encontra conforto na amizade com Eric, o monstro que vive debaixo da cama de Edgar.",
+    "ano": "(2024)",
+    "avaliacao": "🥉",
+    "linkVoltar": "/index.html",
+    "linkSobre": "/about.html"
+  },
+  {
+    "id": 125,
+    "titulo": "Disclaimer",
+    "imagem": "/img/disclaimer.jpg",
+    "sinopse": "Acompanha Catherine Ravenscroft, uma jornalista documentarista de televisão cujo trabalho se baseia em revelar as transgressões de instituições respeitadas há muito tempo.",
+    "ano": "(2024)",
+    "avaliacao": "🥈",
+    "linkVoltar": "/index.html",
+    "linkSobre": "/about.html"
+  },
+  {
+    "id": 126,
+    "titulo": "Mad Men",
+    "imagem": "/img/mad_men.jpg",
+    "sinopse": "Um drama sobre uma das agências de publicidade mais prestigiadas de Nova York no início dos anos 1960, com foco em Donald Draper, um dos executivos de publicidade mais misteriosos e talentosos da empresa.",
+    "ano": "(2007–2015)",
+    "avaliacao": "🥇",
+    "linkVoltar": "/index.html",
+    "linkSobre": "/about.html"
   }
 ]
