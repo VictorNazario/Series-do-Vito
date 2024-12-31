@@ -1,10 +1,10 @@
-# Vito Séries 📺
+# Séries do Vito 📺
 
 Um blog pessoal criado para catalogar, avaliar e compartilhar séries de TV. Desenvolvido como um projeto hobby por um entusiasta de tecnologia e séries.
 
 ## 📝 Sobre o Projeto
 
-Vito Séries nasceu da necessidade de ter um espaço pessoal para:
+Séries do Vito nasceu da necessidade de ter um espaço pessoal para:
 - Registrar todas as séries assistidas
 - Avaliar séries de forma simples e intuitiva
 - Compartilhar recomendações com amigos
