@@ -25,8 +25,8 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 50px; /* Tamanho do botão */
-  height: 50px; /* Tamanho do botão */
+  width: 33px; /* Tamanho do botão */
+  height: 33px; /* Tamanho do botão */
   margin: 5px;
   transition: transform 0.2s ease; /* Suavidade ao clicar */
   background-color: transparent;
