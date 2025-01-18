@@ -99,8 +99,14 @@ async function loadSerieDetails() {
     try {
         const response = await fetch("series.json");
         const data = await response.json();
-        const serie = data.find((s) => s.id == serieId);
+        
+        // Atualiza o contador de séries na página de detalhes
+        const totalElement = document.getElementById("total-series");
+        if (totalElement) {
+            totalElement.textContent = `Séries assistidas: ${data.length}`;
+        }
 
+        const serie = data.find((s) => s.id == serieId);
         if (serie) {
             document.title = serie.titulo;
             document.getElementById("serie-imagem").src = serie.imagem;

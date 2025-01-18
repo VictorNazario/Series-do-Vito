@@ -1,13 +1,13 @@
 /* Estilos do cabeçalho e componentes de navegação */
 header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px 2px;
-    color: #fff;
-    /* margin-top: -10px;
-      margin-bottom: 10px; */
-  }
+  display: flex;
+  justify-content: center; /* Mudamos para center ao invés de space-between */
+  align-items: center;
+  padding: 10px 2px;
+  gap: 25px; /* Aumentamos o gap para dar um espaçamento uniforme */
+  color: #fff;
+  flex-wrap: nowrap;
+}
   
   /* ... outros estilos do header ... */
   
@@ -24,7 +24,9 @@ header {
     width: 60px;
     background-color: transparent;
     border: none;
-    position: relative;
+    /* position: relative; */
+    display: flex;
+    align-items: center;
     transition: transform 0.2s ease;
   }
   
@@ -66,7 +68,6 @@ header {
   
   /* Estilo atualizado do botão de navegação */
   .nav-button {
-    display: flex;
     background-color: #2e2e2e;
     color: white;
     border: none;
@@ -74,7 +75,21 @@ header {
     padding: 12px;
     cursor: pointer;
     font-size: 14px; /* Tamanho de fonte mais adequado */
+    display: flex;
+    align-items: center;
   }
+
+  .total-series {
+    background-color: #2e2e2e;
+    color: white;
+    padding: 10px;
+    border-radius: 50px;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    white-space: nowrap;
+    min-width: max-content;
+}
   
   /* Melhorias na barra de busca */
   .search-bar {

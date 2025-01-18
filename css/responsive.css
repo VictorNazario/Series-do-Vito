@@ -54,8 +54,12 @@
     font-size: 12px;
     padding: 5px;
   }
+  .total-series {
+    padding: 5px;
+    font-size: 9px;
+  }
   .search-bar input {
-    margin-left: 20px;
+    /* margin-left: 20px; */
     width: 100%;
     padding: 5px;
     font-size: 12px;
