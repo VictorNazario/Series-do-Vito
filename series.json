@@ -1258,5 +1258,15 @@
     "avaliacao": "🥇",
     "linkVoltar": "/index.html",
     "linkSobre": "/about.html"
+  },
+  {
+    "id": 127,
+    "titulo": "The Day of the Jackal",
+    "imagem": "/img/the_day_of_the_jackal.jpg",
+    "sinopse": "O Chacal é um assassino furtivo que ganha a vida realizando assassinatos pelo maior lance. Ele logo encontra seu adversário em um persistente oficial de inteligência britânico, que o rastreia em uma emocionante caçada de gato e rato pela Europa.",
+    "ano": "(2024)",
+    "avaliacao": "🥉",
+    "linkVoltar": "/index.html",
+    "linkSobre": "/about.html"
   }
 ]
