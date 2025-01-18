@@ -16,7 +16,6 @@ header {
     background-color: transparent;
     display: flex;
     gap: 10px;
-    margin-right: -5px; /* Aproxima o filtro da barra de pesquisa */
     /* padding: 5px; */
     border-radius: 25px;
   }

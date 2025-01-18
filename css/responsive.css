@@ -76,7 +76,7 @@
   .filter-bar {
     width: 30%;
     margin-left: 20px;
-    margin-right: 15px; /* Aproxima o filtro da barra de pesquisa */
+    margin-right: 18px; /* Aproxima o filtro da barra de pesquisa */
   }
   .filter-emoji {
     margin: 3px;
