@@ -1268,5 +1268,15 @@
     "avaliacao": "🥉",
     "linkVoltar": "/index.html",
     "linkSobre": "/about.html"
+  },
+  {
+    "id": 128,
+    "titulo": "Landman",
+    "imagem": "/img/landman.jpg",
+    "sinopse": "Landman é uma história de busca por fortuna no mundo do petróleo, onde os trabalhadores enfrentam condições extremas e os bilionários controlam os negócios. A série explora como o 'boom' petrolífero transforma comunidades e redefine o futuro do planeta.",
+    "ano": "(2024)",
+    "avaliacao": "🥈",
+    "linkVoltar": "/index.html",
+    "linkSobre": "/about.html"
   }
 ]
